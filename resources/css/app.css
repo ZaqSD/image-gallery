@@ -1,0 +1,133 @@
+:root {
+    --bg-1: #212121;
+    --bg-2: #444444;
+    --shadow: drop-shadow(0px 8px 6px rgba(0, 0, 0, 0.3));
+    --shadowH: drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.6));
+}
+
+.background {
+    background-color: var(--bg-1);
+    color: white;
+}
+
+.button {
+    border-width: 0px !important;
+    border-radius: 10px !important;
+    filter: var(--shadow);
+    text-decoration: none;
+    font-size: 24px !important;
+}
+
+.button:hover {
+    filter: var(--shadowH);
+}
+
+.button.button-primary {
+    background-color: #143a85 !important;
+}
+
+.button.button-red {
+    background-color: #a20013 !important;
+}
+.button-outline {
+    border-color: #143a85 !important;
+    border-width: 0px !important;
+    filter: var(--shadow);
+    text-decoration: none;
+    font-size: 24px !important;
+    color: white !important;
+}
+
+.button-outline:hover {
+    background-color: rgba(20, 58, 133, 0.5) !important;
+    border-width: 0px;
+    text-decoration: none;
+    font-size: 24px !important;
+}
+
+.button-outline:first-child {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.button-outline:last-child {
+    border-radius: 0 10px 10px 0 !important;
+    margin-left: -1px;
+}
+
+.filler-20 {
+    height: 20px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.imagecard {
+    background-color: var(--bg-2) !important;
+    border-color: white !important;
+    border-width: 0px !important;
+    border-radius: 10px !important;
+    filter: var(--shadow);
+    padding: 10px !important;
+    margin-bottom: 20px;
+    /*height: 50px !important;*/
+}
+
+.imageview {
+    object-fit: cover;
+    width: 140px;
+    height: 140px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.textfield {
+    background-color: var(--bg-2) !important;
+    border-color: white !important;
+    border-width: 0px !important;
+    border-radius: 10px !important;
+    color: white !important;
+    filter: var(--shadow);
+}
+
+.textfield:hover {
+    background-color: var(--bg-2) !important;
+    filter: var(--shadowH);
+}
+
+.text-small {
+    color: #bdbdbd;
+}
+
+.title {
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.title:hover {
+    color: #cdcdcd;
+}
+.typetag {
+    color: white;
+    background-color: #00973b;
+    border-radius: 6px;
+}
+
+.w-375 {
+    width: 375px !important;
+}
+
+.w-400 {
+    width: 400px !important;
+}
+
+h-75 {
+    height: 75px;
+}
+
+#upFileDiv {
+    padding: 15px !important;
+}
